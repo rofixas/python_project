@@ -1,11 +1,13 @@
-a = int(input())
+a = int(input('Введите натуральные числа '))
 sum = 0
 kol = 0
-max = 0
-min = 0
+max = a
+min = a
 chet = 0
 nechet = 0
 while True:
+    if a == 0:
+        break
     sum += a
     kol += 1
     a = int(input())
@@ -17,8 +19,6 @@ while True:
         chet += 1
     if a % 2 != 0:
         nechet += 1
-    if a == 0:
-        break
 print('Сумма всех чисел', sum)
 print('Среднее значение' ,(sum / kol))
 print('Максимальное значение' , max)
