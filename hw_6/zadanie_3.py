@@ -6,7 +6,7 @@
 #
 #         print(i)
 #     break
-s = input()
+s = input('Введите символы из которых должна состоять пирамида : ')
 l = len(s) // 2
 while 3 <= l <= 9:
     for i in range(l, -1, -1):
