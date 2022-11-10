@@ -1,6 +1,6 @@
 a = []
 b = []
-for i in range(10,251):
+for i in range(10, 251):
     if i % 20 == 0:
         a.append(i)
     else:
