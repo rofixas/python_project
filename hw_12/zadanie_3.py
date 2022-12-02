@@ -10,7 +10,7 @@ def gen(n, z):
                 cnt += 1
         if cnt == 2:
             lst.append(i)
-    return lst
+    return
 
 
 m = random.randint(1, 10)
